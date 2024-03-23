@@ -9,21 +9,22 @@
     </style>
     <!--BOOTSTRAP CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css"></link>
-
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </head>
 <body>
     <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
-        <div class="container style">
-          <a class="navbar-brand" href="#">Home</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+        <div class="container-fluid" >
+          <a class="navbar-brand" href="#">Beranda</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse text-right" id="navbarText">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-             <a class="nav-link" href="#konten">Berita</a>
+             <a class="nav-link" href="#berita">Berita</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#galeryfoto">Galery</a>
@@ -40,7 +41,7 @@
         <h1 class="display-1" style="color: #1a9b00; font-weight: 500;"><strong>Travel Bogor</strong></h1>
         <h2 class=" bold display-1" style="color: #000000;"><strong>Like Never Before</strong></h2>
         <!-- <a href="#kontenwisata"></a> -->
-        <a class="btn btn-danger btn-lg " href="#konten">Explorer -></a>
+        <a class="btn btn-danger btn-lg " href="#berita">Explorer -></a>
         
       </div>
       </div>
@@ -48,7 +49,10 @@
         <!---Tentang-->
         <div class="container text-center">
             <h2 class="display-3" id="tentang">BOGOR</h2><!--Langsung Direk ketika klik menu tentang -->
-            <p class="display-5" >Bogor adalah sebuah kota yang terletak di provinsi Jawa Barat, Indonesia. Kota ini terletak 59 km di sebelah selatan Jakarta, dan merupakan enklave Kabupaten Bogor. Pada pertengahan tahun 2023, jumlah penduduk Kota Bogor sebanyak 1.122.772 jiwa, dengan kepadatan 10.001 jiwa/km²</p>
+            <p class="display-5" >Bogor adalah sebuah kota yang terletak di provinsi Jawa Barat, Indonesia. 
+              Kota ini terletak 59 km di sebelah selatan Jakarta, dan merupakan enklave Kabupaten Bogor. 
+              Pada pertengahan tahun 2023, jumlah penduduk Kota Bogor sebanyak 1.122.772 jiwa, dengan kepadatan 10.001 
+              jiwa/km²</p>
             <div class="row pt-4">
                 <div class="col-md-4">
                 <span class="lingkaran"></span>
@@ -71,7 +75,7 @@
       <div class="container-fliud pt-5 pb-5 bg-light"></div>
       <!--Konten Wisata-->
       <div class="container text-center">
-        <h2 class="display-3" id="konten">Berita</h2>
+        <h2 class="display-3" id="berita">Berita</h2>
         <p>Berisi berita update seputar wisata bogor</p>
         <div class="row pt-4 gx-4 gy-4">
         <div class="col-md-4"><div class="card" style="width: 18rem;"></div>
@@ -79,17 +83,30 @@
             <div class="card-body"></div>
               <h5 class="card-title">Daftar Kuliner di Jalan Suryakencana Bogor, Bikin Ngiler!</h5>
               <p class="card-text">Bogor punya nama lain yaitu Kota Hujan. Pasalnya, di sini curah hujannya terbilang sangat tinggi sampai-sampai tiap hari cenderung mendung dan dingin. Sambil menikmati sejuknya hawa kota Bogor, boleh dong mencicipi ragam kuliner yang ada di sana. Salah satu spot dengan banyak banget pilihan kuliner adalah di Jalan Suryakencana.
-
                 FYI, Jalan Suryakencana emang populer sekali di kalangan para food traveller karena di sini adalah Pecinan-nya Bogor. Kamu bisa menemukan puluhan kedai dan warung yang menjual berbagai makanan dan jajanan, mulai yang halal sampai non-halal. Harganya jangan ditanya, murmer alias murah meriah. Yuk, simak kuliner apa aja yang bikin kamu nggak bisa berhenti mengunyah.</p>
               <a href="#" class="btn btn-primary">Selengkapnya</a>
-              
-            </div>
+                          </div>
             <div class="col-md-4"><div class="card" style="width: 18rem;"></div>
             <img src="img/Jalan-Suryakencana-Kelurahan-Babakan-Pasar.jpg" class="card-img-top"  width="200" height="200"/>
             <div class="card-body"></div>
               <h5 class="card-title">Daftar Kuliner di Jalan Suryakencana Bogor, Bikin Ngiler!</h5>
               <p class="card-text">Bogor punya nama lain yaitu Kota Hujan. Pasalnya, di sini curah hujannya terbilang sangat tinggi sampai-sampai tiap hari cenderung mendung dan dingin. Sambil menikmati sejuknya hawa kota Bogor, boleh dong mencicipi ragam kuliner yang ada di sana. Salah satu spot dengan banyak banget pilihan kuliner adalah di Jalan Suryakencana.
-
+                FYI, Jalan Suryakencana emang populer sekali di kalangan para food traveller karena di sini adalah Pecinan-nya Bogor. Kamu bisa menemukan puluhan kedai dan warung yang menjual berbagai makanan dan jajanan, mulai yang halal sampai non-halal. Harganya jangan ditanya, murmer alias murah meriah. Yuk, simak kuliner apa aja yang bikin kamu nggak bisa berhenti mengunyah.</p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+          </div>
+          <div class="col-md-4"><div class="card" style="width: 18rem;"></div>
+            <img src="img/Jalan-Suryakencana-Kelurahan-Babakan-Pasar.jpg" class="card-img-top"  width="200" height="200"/>
+            <div class="card-body"></div>
+              <h5 class="card-title">Daftar Kuliner di Jalan Suryakencana Bogor, Bikin Ngiler!</h5>
+              <p class="card-text">Bogor punya nama lain yaitu Kota Hujan. Pasalnya, di sini curah hujannya terbilang sangat tinggi sampai-sampai tiap hari cenderung mendung dan dingin. Sambil menikmati sejuknya hawa kota Bogor, boleh dong mencicipi ragam kuliner yang ada di sana. Salah satu spot dengan banyak banget pilihan kuliner adalah di Jalan Suryakencana.
+                FYI, Jalan Suryakencana emang populer sekali di kalangan para food traveller karena di sini adalah Pecinan-nya Bogor. Kamu bisa menemukan puluhan kedai dan warung yang menjual berbagai makanan dan jajanan, mulai yang halal sampai non-halal. Harganya jangan ditanya, murmer alias murah meriah. Yuk, simak kuliner apa aja yang bikin kamu nggak bisa berhenti mengunyah.</p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+          </div>
+          <div class="col-md-4"><div class="card" style="width: 18rem;"></div>
+            <img src="img/Jalan-Suryakencana-Kelurahan-Babakan-Pasar.jpg" class="card-img-top"  width="200" height="200"/>
+            <div class="card-body"></div>
+              <h5 class="card-title">Daftar Kuliner di Jalan Suryakencana Bogor, Bikin Ngiler!</h5>
+              <p class="card-text">Bogor punya nama lain yaitu Kota Hujan. Pasalnya, di sini curah hujannya terbilang sangat tinggi sampai-sampai tiap hari cenderung mendung dan dingin. Sambil menikmati sejuknya hawa kota Bogor, boleh dong mencicipi ragam kuliner yang ada di sana. Salah satu spot dengan banyak banget pilihan kuliner adalah di Jalan Suryakencana.
                 FYI, Jalan Suryakencana emang populer sekali di kalangan para food traveller karena di sini adalah Pecinan-nya Bogor. Kamu bisa menemukan puluhan kedai dan warung yang menjual berbagai makanan dan jajanan, mulai yang halal sampai non-halal. Harganya jangan ditanya, murmer alias murah meriah. Yuk, simak kuliner apa aja yang bikin kamu nggak bisa berhenti mengunyah.</p>
               <a href="#" class="btn btn-primary">Selengkapnya</a>
           </div>
@@ -107,89 +124,43 @@
             <div class="card-body"></div>
               <h5 class="card-title">Daftar Kuliner di Jalan Suryakencana Bogor, Bikin Ngiler!</h5>
               <p class="card-text">Bogor punya nama lain yaitu Kota Hujan. Pasalnya, di sini curah hujannya terbilang sangat tinggi sampai-sampai tiap hari cenderung mendung dan dingin. Sambil menikmati sejuknya hawa kota Bogor, boleh dong mencicipi ragam kuliner yang ada di sana. Salah satu spot dengan banyak banget pilihan kuliner adalah di Jalan Suryakencana.
-
-                FYI, Jalan Suryakencana emang populer sekali di kalangan para food traveller karena di sini adalah Pecinan-nya Bogor. Kamu bisa menemukan puluhan kedai dan warung yang menjual berbagai makanan dan jajanan, mulai yang halal sampai non-halal. Harganya jangan ditanya, murmer alias murah meriah. Yuk, simak kuliner apa aja yang bikin kamu nggak bisa berhenti mengunyah.</p>
-              <a href="#" class="btn btn-primary">Selengkapnya</a>
-          </div>
-          <div class="col-md-4"><div class="card" style="width: 18rem;"></div>
-            <img src="img/Jalan-Suryakencana-Kelurahan-Babakan-Pasar.jpg" class="card-img-top"  width="200" height="200"/>
-            <div class="card-body"></div>
-              <h5 class="card-title">Daftar Kuliner di Jalan Suryakencana Bogor, Bikin Ngiler!</h5>
-              <p class="card-text">Bogor punya nama lain yaitu Kota Hujan. Pasalnya, di sini curah hujannya terbilang sangat tinggi sampai-sampai tiap hari cenderung mendung dan dingin. Sambil menikmati sejuknya hawa kota Bogor, boleh dong mencicipi ragam kuliner yang ada di sana. Salah satu spot dengan banyak banget pilihan kuliner adalah di Jalan Suryakencana.
-
-                FYI, Jalan Suryakencana emang populer sekali di kalangan para food traveller karena di sini adalah Pecinan-nya Bogor. Kamu bisa menemukan puluhan kedai dan warung yang menjual berbagai makanan dan jajanan, mulai yang halal sampai non-halal. Harganya jangan ditanya, murmer alias murah meriah. Yuk, simak kuliner apa aja yang bikin kamu nggak bisa berhenti mengunyah.</p>
-              <a href="#" class="btn btn-primary">Selengkapnya</a>
-          </div>
-          <div class="col-md-4"><div class="card" style="width: 18rem;"></div>
-            <img src="img/Jalan-Suryakencana-Kelurahan-Babakan-Pasar.jpg" class="card-img-top"  width="200" height="200"/>
-            <div class="card-body"></div>
-              <h5 class="card-title">Daftar Kuliner di Jalan Suryakencana Bogor, Bikin Ngiler!</h5>
-              <p class="card-text">Bogor punya nama lain yaitu Kota Hujan. Pasalnya, di sini curah hujannya terbilang sangat tinggi sampai-sampai tiap hari cenderung mendung dan dingin. Sambil menikmati sejuknya hawa kota Bogor, boleh dong mencicipi ragam kuliner yang ada di sana. Salah satu spot dengan banyak banget pilihan kuliner adalah di Jalan Suryakencana.
-
                 FYI, Jalan Suryakencana emang populer sekali di kalangan para food traveller karena di sini adalah Pecinan-nya Bogor. Kamu bisa menemukan puluhan kedai dan warung yang menjual berbagai makanan dan jajanan, mulai yang halal sampai non-halal. Harganya jangan ditanya, murmer alias murah meriah. Yuk, simak kuliner apa aja yang bikin kamu nggak bisa berhenti mengunyah.</p>
               <a href="#" class="btn btn-primary">Selengkapnya</a>
           </div>
         </div>
-        
-        
-      </div>
+                     </div>
       <!--Galery Foto-->
-      <div class="container-fliud pt-5 pb-5 bg-light">
-        <div class="Contener text-center "></div>
-        <!-- <h2 class="display-3" id="galeryfoto">GALERY</h2> -->
-        <div class="filter-top d-flex align-item-center justify-between pb-4">
-    </div>
-    <h3 class="title font-size-24" id ="galeryfoto">GALERY</h3>
-        <p>Berikut ini daftar wisata yang sering dikunjungi wisatawan.</p>
-             
-                                               
-            </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                  <div class="card h-100">
-                    <img src="img/Jalan-Suryakencana-Kelurahan-Babakan-Pasar.jpg" class="card-img-top" alt="...">
-                    
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <img src="img/Panorama Pabangbon.jpg" class="card-img-top" alt="...">
-                    
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <img src="img/Situ Gede.jpg" class="card-img-top" alt="...">
-                    
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <img src="img/Taman Sakura Kebun Raya Cibodas.jpg" class="card-img-top" alt="...">
-                    
-                  </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                      <img src="img/Jalan-Suryakencana-Kelurahan-Babakan-Pasar.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        
-                    </div>
-                  </div>
-                  
-              </div>
-      </div>
-    </div>
+      <div class="container-fliud pt-5 pb-5 bg-light text-center">
+        <div class="Contener text-center "><h3 class="title font-size-24" id ="galeryfoto" >GALERY</h3>
+          <p>Berikut ini daftar wisata yang sering dikunjungi wisatawan.</p></div>
+                <div class="filter-top d-flex align-item-center justify-between pb-4">
+    </div>                                                           
+                  <figure class="figure ">
+                    <img src="img/Telaga Saat.jpg" class="figure-img img-fluid rounded " alt="...">
+                    <figcaption class="figure-caption text-center text-bg-dark">Telaga Saat</figcaption>
+                  </figure>
+                  <figure class="figure">
+                    <img src="img/Curug Cikuluwung.jpg" class="figure-img img-fluid rounded " alt="...">
+                    <figcaption class="figure-caption text-center text-bg-dark" >Curug Cikuluwung</figcaption>
+                  </figure>
+                  <figure class="figure">
+                    <img src="img/Jalan-Suryakencana-Kelurahan-Babakan-Pasar.jpg" class="figure-img img-fluid rounded " alt="...">
+                    <figcaption class="figure-caption text-center text-bg-dark" >Jalan Surya Kencana</figcaption>
+                  </figure>
+                  <figure class="figure">
+                    <img src="img/Panorama Pabangbon.jpg" class="figure-img img-fluid rounded " alt="...">
+                    <figcaption class="figure-caption text-center text-bg-dark" >Panorama Pabangbon</figcaption>
+                  </figure>
+ 
+       <!--Footer-->
     <div class="card text-center">
         <div class="card-header">
-          
-        </div>
-        <!--Footer-->
+                  </div>
+     
         <div class="card-body">
           <h5 class="card-title">WISATA KOTA BOGOR</h5>
           <p class="card-text"> </p>
-          
-        <div class="card-footer text-body-secondary">
+          <div class="card-footer text-body-secondary">
         Semua isi yang tercantum di dalam situs ini bertujuan untuk memberikan informasi dan bukan sebagai tujuan komersial
         </div>
       </div>
